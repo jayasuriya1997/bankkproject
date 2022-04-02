@@ -21,6 +21,10 @@ public String addDetails(@RequestBody OrderRequest request) {
 	return productservice.addDetails(request);
 } 
 
+@RequestMapping(value="/")
+String mYfUnction() {
+	return "hello jai";
+}
 
 
 } 
